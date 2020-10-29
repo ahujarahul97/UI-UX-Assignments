@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles\salesforce-lightning-design-system.css">
+  <title>Book Test Drive</title>
+</head>
+<body style="display: block; margin-left: auto; margin-right: auto;margin-top: 2%; width: 50%;">
+<div class="slds-carousel__image">
+	<img src="Images\car.jpg"alt="Book Test Drive"/>
+</div>
+<article class="slds-card">
+  <div class="slds-card__header slds-grid">
+	<header class="slds-media slds-media_center slds-has-flexi-truncate">
+	  <div class="slds-media__body">
+        <h2 class="slds-card__header-title">
+		Book a Test Drive
+        </h2>
+      </div>
+    </header>
+  </div>
+  <div class="slds-form-element">
+  <label class="slds-form-element__label" for="input-car">Car</label>
+  <div class="slds-form-element__control">
+    <input type="text" id="text-input-id-1" readonly="" placeholder="" class="slds-input" value="S-Cross" />
+  </div>
+  <label class="slds-form-element__label" for="car-model">Select Model</label>
+  <div class="slds-form-element__control">
+    <div class="slds-select_container">
+      <select class="slds-select" id="car-model">
+        <option value="">Select Model…</option>
+        <option value="Sigma">Sigma</option>
+        <option value="Delta">Delta</option>
+        <option value="Zeta">Zeta</option>
+		<option value="Alpha">Alpha</option>
+      </select>
+    </div>
+	<br/>
+	<div>
+	<table>
+	<tr>
+		<th><label class="slds-form-element__label" for="input-first-name">
+			<abbr class="slds-required" title="required">* </abbr>First Name</label></th>
+		<th><label class="slds-form-element__label" for="input-last-name">
+			<abbr class="slds-required" title="required">* </abbr>Last Name</label></th>
+	</tr>
+	<tr>
+		<td><input type="text" id="input-first-name" placeholder="Enter first name…" required="" class="slds-input" style="width:95%"/></td>
+		<td><input type="text" id="input-last-name" placeholder="Enter last name…" required="" class="slds-input" style="width:95%"/></td>
+	</tr>
+	</table>
+	<br/>
+	<label class="slds-form-element__label" for="input-num">
+    <abbr class="slds-required" title="required">* </abbr>Number</label>
+    <input type="tel" id="input-num" placeholder="Enter contact number…" required="" class="slds-input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+  </div>
+  <br/><center><button class="slds-button slds-button_success">Submit nformation</button></center>
+  </div>
+  <footer class="slds-card__footer">
+    <a class="slds-card__footer-action" href="javascript:void(0);">Contact Us
+      <span class="slds-assistive-text">0294-2584867</span>
+    </a>
+  </footer>
+</article>
+</body>
+</html>
